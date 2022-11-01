@@ -1,15 +1,15 @@
 # Discord-user-widget
 
-Description:
+Description
 ---
 Discord-user-widget uses the Discord Server Widget API but instead of selecting the server information, the discord user profile is selected and update via the API.
 
-Disclaimer⚠️:
+Disclaimer⚠️
 --- 
 DISCORD server widget API updates on average every 4 -5 mins
 
 
-How to use:
+How to use
 ---
 1. Create a private discord server with just yourself or it won't work
 2. Go to server-settings / widget
@@ -25,7 +25,7 @@ OR
 
 if you want to change it to a photo in your folder, change the src link to the image src  
 
-Example:
+Example
 --- 
 
 ![image](https://user-images.githubusercontent.com/89455475/199206582-3a66c7dd-4db2-4e20-aeef-1171856ca78d.png)
