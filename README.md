@@ -1,8 +1,8 @@
-# Discord-user-status
+# Discord-user-widget
 
 Description:
 ---
-Discord-user-status uses the Discord Server Widget API but instead of selecting the server information, the discord user profile
+Discord-user-widget uses the Discord Server Widget API but instead of selecting the server information, the discord user profile is selected and update via the API.
 
 Disclaimer⚠️:
 --- 
