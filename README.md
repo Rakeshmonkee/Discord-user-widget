@@ -17,7 +17,7 @@ How to use
 4. ✂️ Copy Server ID or JSON API to clipboard 📋
 5. Follow steps in the JS document 🙂
 
-Make sure to update the section called 'UPDATE MANUALLY'. 
+Make sure to update the section called 'UPDATE MANUALLY' with your discord info (NAME, DISCRIM, PFP)
 
 To get avatar url visit https://discord.com/api/guilds/INSERT-SERVER-ID-HERE/widget.json, Make sure your status is set to either online, idle or dnd or avatar img src will not show
 
