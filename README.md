@@ -4,13 +4,6 @@ Description:
 ---
 Discord-user-status uses the Discord Server Widget API but instead of selecting the server information, the discord user profile
 
-
-Example:
---- 
-
-![image](https://user-images.githubusercontent.com/89455475/199206582-3a66c7dd-4db2-4e20-aeef-1171856ca78d.png)
-![image](https://user-images.githubusercontent.com/89455475/199206617-8e380554-8171-49ee-adfa-d8095e6805df.png)
-
 Disclaimer⚠️:
 --- 
 DISCORD server widget API updates on average every 4 -5 mins
@@ -32,3 +25,8 @@ OR
 
 if you want to change it to a photo in your folder, change the src link to the image src  
 
+Example:
+--- 
+
+![image](https://user-images.githubusercontent.com/89455475/199206582-3a66c7dd-4db2-4e20-aeef-1171856ca78d.png)
+![image](https://user-images.githubusercontent.com/89455475/199206617-8e380554-8171-49ee-adfa-d8095e6805df.png)
