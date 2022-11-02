@@ -6,7 +6,7 @@ Discord-user-widget uses the Discord Server Widget API but instead of selecting 
 
 Disclaimer⚠️
 --- 
-DISCORD server widget API updates on average every 4 - 5 mins
+Server widget API updates on average every 4 - 5 mins meaning any information won't be updated straight away
 
 
 How to use
@@ -27,11 +27,17 @@ E.G
 
                          Server ID - 1035781823030120448 
                          
-                                      👇👇👇👇👇👇👇👇👇👇
+                                     👇👇👇👇👇👇👇👇👇👇
                                       
       https://discord.com/api/guilds/1035781823030120448/widget.json 
 
-Make sure your user status is set to either online, idle or dnd or if offline, avatar img src will not show
+There should be a field called "avatar_url"
+
+Example
+
+"avatar_url" : https://cdn.discordapp.com/widget-avatars/
+
+Make sure your user status is set to either online, idle or dnd for avatar url to show or if offline, avatar img src will not show
 
 OR
 
@@ -39,6 +45,10 @@ If you want to change it to a photo in your own project, change the src link to 
 
 Example
 --- 
+Online:
 
 ![image](https://user-images.githubusercontent.com/89455475/199206582-3a66c7dd-4db2-4e20-aeef-1171856ca78d.png)
+
+Offline:
+
 ![image](https://user-images.githubusercontent.com/89455475/199206617-8e380554-8171-49ee-adfa-d8095e6805df.png)
