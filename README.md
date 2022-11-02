@@ -23,7 +23,7 @@ To get avatar url visit
 
 https://discord.com/api/guilds/INSERT-SERVER-ID-HERE/widget.json
 
-E.G
+Example
 
                          Server ID - 1035781823030120448 
                          
@@ -31,13 +31,18 @@ E.G
                                       
       https://discord.com/api/guilds/1035781823030120448/widget.json 
 
+OR
+
+Copy and past the JSON link into browser
+
+
 There should be a field called "avatar_url"
 
 Example
 
 "avatar_url" : https://cdn.discordapp.com/widget-avatars/
 
-Make sure your user status is set to either online, idle or dnd for avatar url to show or if offline, avatar img src will not show
+Make sure your user status is set to either online, idle or dnd for avatar url to show, or else if offline, avatar src will not show
 
 OR
 
@@ -46,6 +51,8 @@ If you want to change it to a photo in your own project, change the src link to 
 Example
 --- 
 Online:
+
+Idle and dnd will be the same but status colour will change
 
 ![image](https://user-images.githubusercontent.com/89455475/199206582-3a66c7dd-4db2-4e20-aeef-1171856ca78d.png)
 
