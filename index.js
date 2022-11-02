@@ -50,8 +50,6 @@ window.addEventListener('load', () => {
                   hour: "2-digit",
                 })
               );
-            
-            console.log(hours);
                 
             // change or update fields to what ever
             if (hours >= 8 && 10 >= hours) {
