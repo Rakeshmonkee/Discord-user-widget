@@ -43,9 +43,15 @@ window.addEventListener('load', () => {
 ////////////////////////////////////////////////////////////////////////////////////////
 
             //get hours
-            const date = new Date()
-            const hours = date.getHours();
-
+            const hours = Number(
+                (new Date()).toLocaleString("en-GB", {
+                //Change timezone to your timezone
+                  timeZone: "Australia/Brisbane",
+                  hour: "2-digit",
+                })
+              );
+            
+            console.log(hours);
                 
             // change or update fields to what ever
             if (hours >= 8 && 10 >= hours) {
@@ -65,7 +71,7 @@ window.addEventListener('load', () => {
                 
                 const x = `${data.members}`;
 
-                /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\
+/// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\
 
 
 
@@ -98,7 +104,3 @@ window.addEventListener('load', () => {
         });
     }
 });
-
-
-
-
