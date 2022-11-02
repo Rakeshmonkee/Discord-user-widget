@@ -12,6 +12,7 @@ window.addEventListener('load', () => {
         //create a server with just your self in it and go to server settings/ widget, copy JSON API and enable server widget.
         //Invite channel doesn't matter
         //Replace 👇 link with your JSON API link
+        // OR remove the numbers and replace it with your own server ID
         fetch(`https://discord.com/api/guilds/1035781823030120448/widget.json`).then(data => {
             data.json().then(data => {
                 //users
@@ -36,7 +37,7 @@ window.addEventListener('load', () => {
                         statusText1.innerText = user.game.name;
                 }
                 avatar1.append(avatarIMG1, status1);
-                // Remove status feed from body.appen and add statusText
+                // Remove status feed from body1.append and add statusText
                 //                      👇here if you want statusText on tsame line as avatar and name
                 member1.append(avatar1, name1);
                 body1.append(member1,"playing: ", statusText1);
