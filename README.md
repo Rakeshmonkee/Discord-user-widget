@@ -6,7 +6,7 @@ Discord-user-widget uses the Discord Server Widget API but instead of selecting 
 
 Disclaimer⚠️
 --- 
-Server widget API updates on average every 4 - 5 mins meaning any information won't be updated straight away
+Server widget API updates on average every 4 - 5 mins meaning any changes won't be updated straight away
 
 
 How to use
