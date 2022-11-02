@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
     
     for (let widget of document.getElementsByTagName('discord-widget')) {
-        //getting attributes        //body
+        
         let body1 = document.createElement('widget-body');
 
         //appending body to the widget
@@ -17,10 +17,7 @@ window.addEventListener('load', () => {
             data.json().then(data => {
                 //users
                 data.members.forEach((user) => {
-                //API refreshes every 4mins - 5mins
-                //count for active members which will be 1                    
-
-            
+                //API refreshes every 4mins - 5mins              
                 let member1 = document.createElement('widget-member');
                 let avatar1 = document.createElement('widget-member-avatar');
                 let avatarIMG1 = document.createElement('img');
