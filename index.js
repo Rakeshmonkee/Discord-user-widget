@@ -44,10 +44,12 @@ window.addEventListener('load', () => {
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-                
+            //get hours
             const date = new Date()
             const hours = date.getHours();
 
+                
+            // change or update fields to what ever
             if (hours >= 8 && 10 >= hours) {
                 customstatus = "Breakfast";
             } else if (hours >= 11 && 13 >= hours) {
@@ -60,6 +62,9 @@ window.addEventListener('load', () => {
                 customstatus ="Sleeping";
             }
 
+                
+                //member data in JSON file
+                
                 const x = `${data.members}`;
 
                 /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\
@@ -75,8 +80,12 @@ window.addEventListener('load', () => {
                     let avatarIMG = document.createElement('img');
                     let name = document.createElement('widget-member-name');
                     let status = document.createElement('widget-member-status-text-offline');
+                    
+                    //Update IMG src
                     avatarIMG.src = "https://cdn.discordapp.com/widget-avatars/-0_oJygd9WpCfmgTNP7rrLoV7gUQIBwLnzlVuUlnznI/LjnR1WYZawJMi0idAe8nSwTWs1ivCNoxVWT4ijjsHRNZaPAlSshh-fwr5sXvNgLYBQV_Fpc2ogLSWKn3yFUciQZG8PxgSdkUpvWtBATyeOIkrHI5VeOp4_B3bvNWiB84u4G2bx7wkny8BQ";
                     status.classList.add('widget-member-status-offline');
+                    
+                    // Update Username and discrim
                     name.innerText = "RakeshMonkee#3579";
 
 
