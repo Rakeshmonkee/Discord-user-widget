@@ -2,7 +2,7 @@
 
 Description
 ---
-Discord-user-widget uses the Discord Server Widget API but instead of selecting the server information, the discord user profile is selected and updates via the API.
+Collects user information from server widget api
 
 Disclaimer⚠️
 --- 
