@@ -1,5 +1,11 @@
 # Discord-user-widget
 
+Live View
+---
+https://codepen.io/rakeshmonkee/pen/RwJVZbE
+
+
+
 Description
 ---
 Collects user information from server widget api
