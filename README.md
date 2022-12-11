@@ -70,3 +70,9 @@ Idle and dnd will be the same but status colour will change
 Offline:
 
 ![image](https://user-images.githubusercontent.com/89455475/199206617-8e380554-8171-49ee-adfa-d8095e6805df.png)
+
+
+
+Credit: https://codepen.io/shhh7612/pen/zYPoLye
+
+
