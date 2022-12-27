@@ -13,9 +13,6 @@ Collects user information from server widget api
 Disclaimer⚠️
 --- 
 
-SADLY, DISCORD REMOVED GAME NAME FROM THE JSON API. THEREFORE GAME STATUS WON'T BE UPDATED LIVE ANYMORE :( 
-
-
 Server widget API updates on average every 4 - 5 mins meaning any changes won't be updated straight away
 
 
