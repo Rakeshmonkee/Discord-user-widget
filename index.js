@@ -1,22 +1,26 @@
 window.addEventListener('load', () => {
 
+
+
     for (let widget of document.getElementsByTagName('discord-widget')) {
 
+
+
         let body1 = document.createElement('widget-body');
+
+
 
         //appending body to the widget
 
         widget.append(body1);
 
+
+
         //create a server with just your self in it and go to server settings/ widget, copy JSON API and enable server widget.
-
         //Invite channel doesn't matter
-
         //Replace 👇 link with your JSON API link
-
         // OR remove the numbers and replace it with your own server ID
-
-        fetch(`https://discord.com/api/guilds/1035781823030120448/widget.json`).then(data => {
+        fetch(`https://discord.com/api/guilds/1102920766485438485/widget.json`).then(data => {
 
             data.json().then(data => {
 
@@ -46,14 +50,23 @@ window.addEventListener('load', () => {
 
                     //                                  👇here
 
-                    name1.innerText = user.username + "#9290";
+                    name1.innerText = user.username + "#9749";
+
+
 
                     //get status text 
 
                     if (user.game) {
 
                         statusText1.innerText = user.game.name;
-                    } else if(!statusText1.length){
+
+                    }
+
+
+
+                    // If online but not playing anything
+
+                    if (!statusText1.length) {
 
                         statusText1 = "Day Dreaming"
 
@@ -71,9 +84,17 @@ window.addEventListener('load', () => {
 
                     body1.append(member1, "playing: ", statusText1);
 
+
+
+
+
                 });
 
+
+
                 ////////////////////////////////////////////////////////////////////////////////////////
+
+
 
                 //Get hours
 
@@ -90,6 +111,10 @@ window.addEventListener('load', () => {
                     })
 
                 );
+
+
+
+
 
                 // Change or update fields to what ever
 
@@ -115,15 +140,29 @@ window.addEventListener('load', () => {
 
                 }
 
+
+
+
+
                 //Member data in JSON file
 
                 const offline = `${data.members}`;
 
+
+
                 /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\ /// UPDATE MANUALLY \\\
+
+
 
                 // If offline
 
                 if (!offline.length) {
+
+
+
+
+
+
 
                     let member = document.createElement('widget-member');
 
@@ -135,17 +174,29 @@ window.addEventListener('load', () => {
 
                     let status = document.createElement('widget-member-status-text-offline');
 
+
+
                     //Update IMG src
 
-                    avatarIMG.src = "https://cdn.discordapp.com/widget-avatars/-0_oJygd9WpCfmgTNP7rrLoV7gUQIBwLnzlVuUlnznI/LjnR1WYZawJMi0idAe8nSwTWs1ivCNoxVWT4ijjsHRNZaPAlSshh-fwr5sXvNgLYBQV_Fpc2ogLSWKn3yFUciQZG8PxgSdkUpvWtBATyeOIkrHI5VeOp4_B3bvNWiB84u4G2bx7wkny8BQ";
+                    avatarIMG.src = "https://cdn.discordapp.com/avatars/978177778971197440/d9c97e6b9c689fcf5274edbc91cde4c5.webp?size=80";
 
                     status.classList.add('widget-member-status-offline');
 
+
+
                     // Update Username and discrim
 
-                    name.innerText = "RakeshMonkee#9290";
+                    name.innerText = "RakeshMonkee#9749";
+
+
+
+
 
                     avatar.append(avatarIMG, status);
+
+
+
+
 
                     member.append(avatar, name);
 
