@@ -15,7 +15,7 @@ Disclaimer⚠️
 
 Server widget API updates on average every 4 - 5 mins meaning any changes won't be updated straight away
 
-
+If you have privacy badger, discord.com might be blocked
 
 How to use
 ---
