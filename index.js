@@ -50,7 +50,7 @@ window.addEventListener('load', () => {
 
                     //                                  👇here
 
-                    name1.innerText = user.username + "#9749";
+                    name1.innerText = user.username;
 
 
 
@@ -186,7 +186,7 @@ window.addEventListener('load', () => {
 
                     // Update Username and discrim
 
-                    name.innerText = "RakeshMonkee#9749";
+                    name.innerText = "RakeshMonkee";
 
 
 
